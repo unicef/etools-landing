@@ -1,0 +1,294 @@
+/*
+ Theme Name:     Zerif Lite Child Theme
+ Theme URI:      https://themeisle.com/themes/zerif-lite/
+ Description:    Zerif Lite Child Theme
+ Author:         ThemeIsle
+ Author URI:     https://themeisle.com/
+ Template:       zerif-lite
+ Version:        1.0.0
+*/
+
+@-ms-viewport{
+  width: device-width;
+}
+
+::selection {
+    background: #FAED77;
+    color: #233944;
+}
+a {
+	color: #0099FF !important;
+	outline:none;
+}
+a:visited {
+	color: #0099FF !important;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #0099FF !important; 
+}
+.footer-widget a,
+.footer-widget a:hover,
+.footer-widget a:visited,
+.footer-widget a:focus,
+.footer-widget a:active{
+	color:#FFFFFF !important
+}
+
+ul.nav > li.current > a:before, .page ul.nav > li.current-menu-item > a:before, .single-post ul.nav > li.current-menu-item > a:before, .archive ul.nav > li.current-menu-item > a:before{
+	background:#0099FF;
+}
+
+#benefits-icons{
+	margin-left:-18%
+}
+/*......Blockquote......*/
+.entry-content blockquote{
+	border-left-color:#EEEEEE;
+}
+.page .entry-content blockquote p{
+	font-size:30px;
+	line-height:40px;
+	color:#000000;
+}
+
+.container:after{
+	content:"";
+}
+.custom-font{
+	margin-bottom:35px;
+	
+}
+.page-template-template-fullwidth-no-title .content-left-wrap{
+    padding-top:0;
+}
+
+.entry-content{
+    margin-top:0;
+}
+
+.page .entry-content p{
+	color:#6D6D6D
+}
+
+#footer{
+
+	background: #335464; /* Old browsers */
+	background: -moz-linear-gradient(top,  #335464 0%, #233944 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #335464 0%,#233944 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #335464 0%,#233944 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#335464', endColorstr='#233944',GradientType=0 ); /* IE6-9 */
+}
+
+.footer-widget-wrap .widget{
+  padding-bottom:0;
+}
+
+.footer-widget-wrap > .container{
+	text-align:left;
+}
+
+
+/*......Headings......*/
+.page-template-template-fullwidth-no-title  h3{
+	color:#0099FF;
+	font-weight:normal; 
+	font-size:23px !important
+}
+
+#header-image{
+    width:80vw;
+    height:22vmax;
+    padding-top:0;
+	display: flex; align-items:center;
+}
+#header-image > .vc_row{
+	/*position: relative;
+  	top: 50%;
+  	-ms-transform: translate(50px, 100px); /* IE 9 */
+    /* -webkit-transform: translate(50px, 100px); /* Safari */
+  	/* transform: translateY(-50%);*/
+  	/*padding-top:35px;*/
+}
+#header-image h1, 
+#header-image h1 span,
+#header-image h1 strong{
+	font-size: 1.8vw
+}
+.highlight{
+	font-size: inherit;
+	background-color:#FAED77;
+	color:#404041
+}
+img.alignleft{
+	margin:0 15px 0 0 ;
+}
+
+.navbar-inverse{
+	background-color:#FFF;
+	border-color:#FFF;
+}
+.navbar-inverse .navbar-toggle{
+	border:0
+}
+.navbar-toggle.collapsed{
+	background-color:#CCCCCC !important
+}
+#main-nav {
+    position: relative;
+    border-bottom:3px solid #233944;
+}
+#main-nav a{
+	color:#757575 !important;
+	text-align:center
+}
+.navbar:after{
+	clear:none
+}
+.navbar-inverse .navbar-nav >li{
+	margin-top:16px;
+	font-size:12px;
+}
+.navbar-brand{
+	height:auto;
+	padding-bottom:14px;
+	padding-top:14px;
+}
+.navbar-brand img{
+	width:140px
+}
+.navbar-inverse .navbar-nav>li:last-child{
+	font-weight:bold;
+	padding-right:16px;
+	padding-left:16px;
+	padding-bottom: 16px;
+    padding-top:  16px;
+    margin-top: 0;
+}
+#main-nav{
+	min-height:70px !important;
+	border-top:none;
+}
+#main-nav.navbar-inverse .navbar-nav>li:last-child a{
+	color: #FFFFFF  !important;
+	padding-left:10px;
+	padding-right:10px;
+}
+#main-nav.navbar-inverse .navbar-nav>li:last-child:hover{
+	background-color:#192C35;
+}
+.navbar-inverse .navbar-toggle.active,
+.navbar-inverse .navbar-toggle:hover{
+	background-color: #0099FF !important;
+}
+.navbar-toggle{
+	margin-top:20px;
+}
+.textwidget{ 
+	text-align:left;
+}
+
+
+#features p, #features strong, #features span, #features a, 
+#user-support p, #user-support strong, #user-support span, #user-support a, 
+#case-studies p, #case-studies strong, #case-studies span, #case-studies a  {
+	font-size:18px;
+	line-height:32px;
+}
+ul{
+	margin-bottom:30px
+}
+
+ul.nav > li.current > a:before, .page ul.nav > li.current-menu-item > a:before, 
+.single-post ul.nav > li.current-menu-item > a:before, .archive ul.nav > li.current-menu-item > a:before{
+	display:none;
+}
+ul.nav > li > a:hover{
+	color: #000;
+}
+.footer-widget-wrap.widget{
+	position: relative;
+    text-align: right;
+}
+.footer-widget .signup-newsletter,
+.footer-widget .signup-newsletter:hover{
+	display:inline-block;
+	padding-bottom: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    color: #3a5766 !important;
+}
+#unicef-header{
+	background: url('/wp-content/themes/zerif-lite-child/images/unicef-logo-white.svg') no-repeat center center #0099FF;
+	min-height:30px;
+	height:40px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:left
+}
+
+.vc_row{
+	clear:both
+}
+.entry-title:after,
+.entry-title:before,
+.widget .widget-title:after,
+.widget .widget-title:before{
+	background: #72C300;
+}
+.wp-caption{
+	border:none;
+}
+#modules .wpb_text_column:first-child,
+#user-support .wpb_text_column:first-child{
+	margin-bottom:10px
+}
+.dotted_line {
+	border-style: dotted;
+	border-color: #AAAAAA;
+	border-image-source: url("/wp-content/themes/zerif-lite-child/images/dots-pink.svg");
+	border-image-slice: 10% 10%; 
+	border-image-repeat: round;
+	border-width: 0 0 4px 0;
+	clear:both;
+	display:block;
+	margin:30px 0  !important;
+	width:100%;
+}
+
+#modules{
+	padding-bottom:55px;
+	padding-top:15px;
+}
+.vc_single_image-wrapper{
+	 position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#zerif_clients-widget-6{
+	padding-top:140px;
+	text-align:right;
+}
+
+
+@media only screen and (max-width: 767px) {
+    #header-image .custom-font {
+        display:none
+    }
+    #header-image h1, 
+	#header-image h1 span,
+	#header-image h1 strong{
+		font-size: 3.2vmin
+	}
+	#benefits-icons{
+		margin-left:0
+	}
+}
+@media only screen and (max-width: 1024px) {
+	#header-image {
+       padding-top:20px
+    }
+}
