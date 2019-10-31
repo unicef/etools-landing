@@ -102,7 +102,7 @@
 <li id="menu-item-122" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-122"><a href="/#support">SUPPORT</a></li>
 <!--<li id="menu-item-123" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-123"><a href="/#stories">STORIES</a></li>
 <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-124"><a href="/#faq">FAQ</a></li>-->
-<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117" style="background-color:#233944"><a id="sign-in-button" href="https://etools.unicef.org/saml2/login/">SIGN IN</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117" style="background-color:#233944"><a id="sign-in-button" href="https://etools.unicef.org/social/login/azuread-b2c-oauth2/">SIGN IN</a></li>
 </ul>	</nav>
 	
 		</div>
@@ -593,13 +593,13 @@
 	var demo = /\?env=etools-demo/
 
 	if (dev.test(window.location.href)) {
-		document.getElementById("sign-in-button").href = "https://etools-dev.unicef.org/saml2/login/" 
+		document.getElementById("sign-in-button").href = "https://etools-dev.unicef.org/social/login/azuread-b2c-oauth2/" 
 	} else if (staging.test(window.location.href)) {
-		document.getElementById("sign-in-button").href = "https://etools-staging.unicef.org/saml2/login/"
+		document.getElementById("sign-in-button").href = "https://etools-staging.unicef.org/social/login/azuread-b2c-oauth2/"
 	} else if (demo.test(window.location.href)) {
-		document.getElementById("sign-in-button").href = "https://etools-demo.unicef.org/saml2/login/"
+		document.getElementById("sign-in-button").href = "https://etools-demo.unicef.org/social/login/azuread-b2c-oauth2/"
 	} else {
-		document.getElementById("sign-in-button").href = "https://etools.unicef.org/saml2/login/"
+		document.getElementById("sign-in-button").href = "https://etools.unicef.org/social/login/azuread-b2c-oauth2/"
 	}
 </script>
 
