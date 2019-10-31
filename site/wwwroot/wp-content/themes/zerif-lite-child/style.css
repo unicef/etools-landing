@@ -221,7 +221,7 @@ ul.nav > li > a:hover{
     color: #3a5766 !important;
 }
 #unicef-header{
-	background: url('/wp-content/themes/zerif-lite-child/images/unicef-logo-white.svg') no-repeat center center #0099FF;
+	background: url('/landing/wp-content/themes/zerif-lite-child/images/unicef-logo-white.svg') no-repeat center center #0099FF;
 	min-height:30px;
 	height:40px;
 	padding-top:5px;
@@ -248,7 +248,7 @@ ul.nav > li > a:hover{
 .dotted_line {
 	border-style: dotted;
 	border-color: #AAAAAA;
-	border-image-source: url("/wp-content/themes/zerif-lite-child/images/dots-pink.svg");
+	border-image-source: url("/landing/wp-content/themes/zerif-lite-child/images/dots-pink.svg");
 	border-image-slice: 10% 10%; 
 	border-image-repeat: round;
 	border-width: 0 0 4px 0;
