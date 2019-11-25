@@ -248,7 +248,7 @@ ul.nav > li > a:hover{
 .dotted_line {
 	border-style: dotted;
 	border-color: #AAAAAA;
-	border-image-source: url("/landing/wp-content/themes/zerif-lite-child/images/dots-pink.svg");
+	/* border-image-source: url("/landing/wp-content/themes/zerif-lite-child/images/dots-pink.svg"); */
 	border-image-slice: 10% 10%; 
 	border-image-repeat: round;
 	border-width: 0 0 4px 0;
